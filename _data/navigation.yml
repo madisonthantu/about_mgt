@@ -6,5 +6,5 @@ main:
     url: /resume/
   - title: "DREAM"
     url: https://madisonthantu.github.io/
-  - title: "Pre-Tech"
-    url: /pre-tech/
+  # - title: "Pre-Tech"
+  #   url: /pre-tech/
