@@ -5,13 +5,13 @@ author_profile: true
 permalink: /resume/
 ---
 
-RESUME HERE :P
-
+My most up-to-date resume, which can also be downloaded <a href="../assets/files/MadisonThantu_resume.pdf" download="MadisonThantu_resume.pdf">here</a>:
+<embed src="https://madisonthantu.github.io/about_mgt/assets/files/MadisonThantu_resume.pdf" type="application/pdf"/>
 
 <!-- https://madisonthantu.github.io/about_mgt/resume/ -->
-<!-- <object data="[assets/files/](https://madisonthantu.github.io/about_mgt/resume/)MadisonThantu_resume.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="[assets/files/](https://madisonthantu.github.io/about_mgt/resume/)MadisonThantu_resume.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="[assets/files/](https://madisonthantu.github.io/about_mgt/resume/)MadisonThantu_resume.pdf">Download PDF</a>.</p>
+<!-- <object data="https://madisonthantu.github.io/about_mgt/assets/files/MadisonThantu_resume.pd" type="application/pdf" width="1500px" height="400px">
+    <embed src="https://madisonthantu.github.io/about_mgt/assets/files/MadisonThantu_resume.pd" type="application/pdf"/>
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://madisonthantu.github.io/about_mgt/assets/files/MadisonThantu_resume.pd">Download PDF</a>.</p>
     </embed>
 </object> -->
 
@@ -25,4 +25,3 @@ RESUME HERE :P
   </body>
 </html> -->
 
-<!-- <embed src="https://madisonthantu.github.io/about_mgt/resume/MadisonThantu_resume.pdf" type="application/pdf"/> -->
