@@ -7,3 +7,4 @@ permalink: /pre-tech/
 
 ### Prior to tech ...
 
+I was involved in several research projects in the social sciences.
