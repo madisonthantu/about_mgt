@@ -106,6 +106,7 @@ analytics:
 author:
   name             : "Madison G. Thantu"
   avatar           : "./assets/images/bio-photo.png"
+  pronouns         : "Pronouns: she/her/hers" 
   bio              : "A first year Master's student in Computer Science at Columbia University hoping to utilize my technical skill set in an interdisciplinary, social impact-oriented manner."
   location         : "New York, NY"
   email            : "madison.g.thantu@columbia.edu"
