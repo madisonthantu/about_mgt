@@ -5,8 +5,8 @@ layout: default
 <head>
   {% include head.html %}
   {% include head/custom.html %}
-  <link rel="shortcut icon" type="image/png" href="https://madisonthantu.github.io/about_mgt/assets/images/favicon.png">
-  <!-- <link rel="shortcut icon" type="image/png" href="{{ 'favicon.png' | base_url }}"> -->
+  <!-- <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"> -->
+  <link rel="shortcut icon" type="image/png" href="{{ 'favicon.png' | relative_url }}">
 </head>
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
