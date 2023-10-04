@@ -11,11 +11,11 @@ Prior to pursuing a career in technology, I was deeply entrenched in the social 
 
 ### Below are a few writing samples that I am exceptionally proud of.
 
-<embed src="https://madisonthantu.github.io/about_mgt/assets/files/Statement_on_Anti_Asian_Racism_in_the_Era_of_COVID19.pdf" type="application/pdf"/> -->
+<embed src="https://madisonthantu.github.io/about_mgt/assets/files/Statement_on_Anti_Asian_Racism_in_the_Era_of_COVID19.pdf" type="application/pdf"/> 
 
 <embed src="https://madisonthantu.github.io/about_mgt/assets/files/FEM1.pdf" type="application/pdf"/>
 
-<embed src="https://madisonthantu.github.io/about_mgt/assets/files/FEM2.pdf" type="application/pdf"/> -->
+<embed src="https://madisonthantu.github.io/about_mgt/assets/files/FEM2.pdf" type="application/pdf"/>
 
 <!-- <!-- <embed src="https://madisonthantu.github.io/about_mgt/assets/files/MadisonThantu_resume.pdf" type="application/pdf"/> -->
 
