@@ -5,8 +5,6 @@ author_profile: true
 # permalink: /about/
 ---
 
-## About Me
-
 Hi there and welcome to my website! 
 
 My name is Madison and I recently obtained my M.S. degree in Computer Science (CS) from Columbia University in December 2023, during which I pursued the program's Machine Learning track. I am also one of three 2021 fellows of the [Lustgarten Whitney Family Fellowship's 2021 cohort](https://www.engineering.columbia.edu/news/asif-soeyadi-thantu-lustgarten-whitney-fellows), which was awarded by Columbia University's Computer Science Department.
