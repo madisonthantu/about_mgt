@@ -2,7 +2,7 @@
 title: "The Scheming Admin"
 excerpt: "A managerial dashboard implemented as an embedded Shopify application with advanced administrative functionalities."
 header:
-  teaser: assets/the-scheming-admin/home-page.png
+  teaser: assets/images/the-scheming-admin/home-page.png
 resources:
   - name: "Desktop Demo Video"
     src: "https://github.com/madisonthantu/about_mgt/raw/gh-pages/assets/videos/the-scheming-admin-desktop-demo.mov"
