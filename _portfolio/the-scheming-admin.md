@@ -5,16 +5,20 @@ header:
   teaser: assets/the-scheming-admin/home-page.png
 resources:
   - name: "Desktop Demo Video"
-    src: "https://github.com/madisonthantu/about_mgt/raw/gh-pages/assets/videos/the-scheming-admin-desktop-demo.mov"
+    prev: "https://github.com/madisonthantu/about_mgt/raw/gh-pages/assets/the-scheming-admin/the-scheming-admin-desktop-demo.mov"
+    src: "https://drive.google.com/file/d/1H0pN1JSlHa3O0XUFmrCSmg9QVMIaX-ON/view?usp=sharing"
   - name: "Desktop View"
-    src: "https://raw.githubusercontent.com/madisonthantu/about_mgt/gh-pages/assets/images/the-scheming-admin/desktop-view.png"
+    src: "https://raw.githubusercontent.com/madisonthantu/about_mgt/gh-pages/assets/the-scheming-admin/desktop-view.png"
+    prev: "https://raw.githubusercontent.com/madisonthantu/about_mgt/gh-pages/assets/the-scheming-admin/desktop-view.png"
   - name: "Mobile Demo Video"
-    src: "https://github.com/madisonthantu/about_mgt/raw/gh-pages/assets/videos/the-scheming-admin-mobile-demo.MP4"
+    prev: "https://github.com/madisonthantu/about_mgt/raw/gh-pages/assets/the-scheming-admin/the-scheming-admin-mobile-demo.MP4"
+    src: "https://drive.google.com/file/d/1LsAS9_HrJ4Sv-J0veNhwkHd_MeT5gePH/view?usp=sharing"
   - name: "Mobile View"
-    src: "https://raw.githubusercontent.com/madisonthantu/about_mgt/gh-pages/assets/images/the-scheming-admin/mobile-view.jpeg"
+    src: "https://raw.githubusercontent.com/madisonthantu/about_mgt/gh-pages/assets/the-scheming-admin/mobile-view.jpeg"
+    prev: "https://raw.githubusercontent.com/madisonthantu/about_mgt/gh-pages/assets/the-scheming-admin/mobile-view.jpeg"
 ---
-
-![The Scheming Admin Home Page.](https://raw.githubusercontent.com/madisonthantu/about_mgt/gh-pages/assets/images/the-scheming-admin/home-page.png)
+    
+![The Scheming Admin Home Page.](https://raw.githubusercontent.com/madisonthantu/about_mgt/gh-pages/assets/the-scheming-admin/home-page.png)
 
 Implemented as an independent freelance shopify developer, working for [Roses del Fuego](https://rosesdelfuego.com/).
 
@@ -56,26 +60,26 @@ The GitHub repo is private and can be made (partially) available upon request.
       <div class="carousel-inner">
         <div class="item active" style="left:2%;">
           <h3 style="color:#30CECE;text-align:center;">{{page.resources[0].name}}</h3>
-          <a href="https://drive.google.com/file/d/1H0pN1JSlHa3O0XUFmrCSmg9QVMIaX-ON/view?usp=sharing">
-            <video src="{{page.resources[0].src}}" alt="{{page.resources[0].name}}" style="width:95%;" controls></video>
+          <a href="{{page.resources[0].src}}">
+            <video src="{{page.resources[0].prev}}" alt="{{page.resources[0].name}}" style="width:95%;" controls></video>
           </a>
         </div>
         <div class="item" style="left:2%;">
           <h3 style="color:#30CECE;text-align: center;">{{page.resources[1].name}}</h3>
-          <a href="https://raw.githubusercontent.com/madisonthantu/about_mgt/gh-pages/assets/images/the-scheming-admin/desktop-view.png">
-            <img src="{{page.resources[1].src}}" alt="{{page.resources[1].name}}" style="width:95%;">
+          <a href="{{page.resources[1].src}}">
+            <img src="{{page.resources[1].prev}}" alt="{{page.resources[1].name}}" style="width:95%;">
           </a>
         </div>
         <div class="item" style="left:37%;">
           <h3 style="color:#30CECE;">{{page.resources[2].name}}</h3>
-          <a href="https://drive.google.com/file/d/1LsAS9_HrJ4Sv-J0veNhwkHd_MeT5gePH/view?usp=sharing">
-            <video src="{{page.resources[2].src}}" alt="{{page.resources[2].name}}" style="width:28%;" controls></video>
+          <a href="{{page.resources[2].src}}">
+            <video src="{{page.resources[2].prev}}" alt="{{page.resources[2].name}}" style="width:28%;" controls></video>
           </a>
         </div>
         <div class="item" style="left:37%;">
           <h3 style="color:#30CECE;">{{page.resources[3].name}}</h3>
-          <a href="https://raw.githubusercontent.com/madisonthantu/about_mgt/gh-pages/assets/images/the-scheming-admin/mobile-view.jpeg">
-            <img src="{{page.resources[3].src}}" alt="{{page.resources[3].name}}" style="width:28%;">
+          <a href="{{page.resources[3].src}}">
+            <img src="{{page.resources[3].prev}}" alt="{{page.resources[3].name}}" style="width:28%;">
           </a>
         </div>
       <!-- Left and right controls -->
