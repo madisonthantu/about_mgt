@@ -36,7 +36,6 @@ The GitHub repo is private and can be made (partially) available upon request.
     Shopify API, GraphQL, React, JavaScript, Polaris, Liquid,
     SQLite, Prisma, Fly.io, REMIX web framework, Shopify App Bridge
 
-
 ### Demos & Views:
 <html lang="en">
 <head>
