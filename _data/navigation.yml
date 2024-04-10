@@ -2,8 +2,10 @@
 main:
   - title: "About"
     url: https://madisonthantu.github.io/about_mgt/
-  - title: "Resume"
+  - title: "CV"
     url: /resume/
+  - title: "Projects"
+    url: /portfolio/
   - title: "DREAM"
     url: https://madisonthantu.github.io/
   - title: "Pre-Tech"
