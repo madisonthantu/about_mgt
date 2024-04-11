@@ -1,5 +1,5 @@
 ---
-title: "Bubble Bursting Dynamics"
+title: "Bubble Bursting in RSs"
 excerpt: "A year-long independent research project that investigated the relationship between accuracy, filter bubbles, and user homogenization in RSs."
 header:
   teaser: assets/bubble-bursting/rs_architecture.png
