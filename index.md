@@ -5,14 +5,14 @@ author_profile: true
 # permalink: /about/
 ---
 
-Hi there and welcome to my website! 
+Hi there and welcome to my website!
 
-My name is Madison and I recently obtained my M.S. degree in Computer Science (CS) from Columbia University in December 2023, during which I pursued the program's Machine Learning track. I am also one of three 2021 fellows of the [Lustgarten Whitney Family Fellowship's 2021 cohort](https://www.engineering.columbia.edu/news/asif-soeyadi-thantu-lustgarten-whitney-fellows), which was awarded by Columbia University's Computer Science Department.
+I’m Madison, a full-stack software engineer with a background in machine learning and a focus on building scalable, AI-native systems. I earned my M.S. in Computer Science from Columbia University in December 2023, completing the Machine Learning track. While there, I was awarded the Lustgarten Whitney Fellowship, which is based on students' academic potential for success in computer science.
 
-I graduated from UCLA in 2021, where I obtained a B.S. in Cognitive Science and a B.A. in Human Biology and Society. Clearly, I gravitate towards interdisciplinary fields, and I typically describe my undergrad coursework as a blend of Computer Science, Psychology, Biology, and Sociology.
+My technical interests lie in LLM-based infrastructure, agentic workflows, and security-first architecture. At Kindo AI, I’ve led core initiatives across the stack—designing and shipping a native integrations platform, implementing enterprise-grade RBAC with Cerbos, and launching Hatchet, an orchestration layer for robust, multi-step LLM operations. I also spearheaded a front-end revamp using React and TypeScript to better support secure DevSecOps workflows.
 
-Through my coursework at UCLA, I became extremely interested in technology public policy and ethics, specifically cyclical interaction between technology, society, and the individual. Deciding to pursue this passion, I began Columbia University's [Bridge program](https://www.cs.columbia.edu/ms-bridge/) upon graduating from UCLA. This program was designed to help support highly qualified students from underrepresented and nontraditional backgrounds as they pursue a career in computer science.
+Previously, I developed a multilingual e-commerce frontend on Shopify, worked on behavior prediction models at Ford using connected vehicle data, and conducted research on recommender system dynamics and recursive LLM degradation. My academic work spans algorithmic design, AI ethics, and simulation-based experimentation.
 
-I hope to use my interdisciplinary approach throughout my academic and professional pursuits in the field of computer science, ultimately to create and advocate for technology that is prosocial, equitable, and empowering.
- 
-A silly fact for you - the favicon of this site is of my sphynx (i.e., hairless) cat named Drogon. You can call him Khal for short.
+I hold dual undergraduate degrees from UCLA in Cognitive Science (B.S.) and Human Biology & Society (B.A.), where I studied the feedback loop between technology, behavior, and systems of power. That background continues to inform my approach to engineering, especially in aligning software architecture with real-world impact.
+
+And yes, that favicon you’re seeing is of my hairless cat, Drogon (Khal for short). He supervises most of my commits.
