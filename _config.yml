@@ -20,7 +20,7 @@ title                    : "𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊" #"✿(◠‿�
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Madison G. Thantu"
-description              : "Software engineer and recent Columbia Computer Science graduate with a background in machine learning, full-stack development, and human-centered computing. I bring cross-disciplinary training from UCLA and Columbia to build robust, scalable systems at the intersection of AI, UX, and social impact."
+description              : "Software engineer and recent Columbia Computer Science M.S. graduate with a background in machine learning, full-stack development, and human-centered computing. I bring cross-disciplinary training from UCLA and Columbia to build robust, scalable systems at the intersection of AI, UX, and social impact."
 url                      : "https://madisonthantu.github.io" #/about" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/about_mgt" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
