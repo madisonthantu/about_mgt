@@ -104,7 +104,7 @@ a:hover {
   min-height: auto;
   padding: 58px 0 64px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 460px);
   gap: 72px;
   align-items: center;
 }
@@ -185,9 +185,9 @@ h1 {
 
 .portrait {
   align-self: center;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 4 / 3;
   min-height: 0;
-  max-height: 460px;
+  max-height: 380px;
   border: 1px solid rgba(255, 179, 217, 0.34);
   border-radius: 8px;
   overflow: hidden;
