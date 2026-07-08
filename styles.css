@@ -1,14 +1,16 @@
 :root {
-  --bg: #f7f4ee;
-  --paper: #fffdf8;
-  --ink: #1c2725;
-  --muted: #5d6864;
-  --line: #d9d2c5;
-  --accent: #176b5d;
-  --accent-strong: #0f493f;
-  --rose: #b85c66;
-  --gold: #b9862f;
-  --shadow: 0 18px 60px rgba(28, 39, 37, 0.12);
+  --bg: #101118;
+  --paper: #181a24;
+  --paper-soft: #202433;
+  --ink: #fff7fb;
+  --muted: #c4bdca;
+  --line: #34384a;
+  --accent: #ff8fc7;
+  --accent-strong: #ffb3d9;
+  --mint: #9ff4df;
+  --lilac: #b9a7ff;
+  --gold: #ffe08a;
+  --shadow: 0 18px 60px rgba(0, 0, 0, 0.42);
 }
 
 * {
@@ -21,7 +23,11 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    var(--bg);
+  background-size: 28px 28px;
   color: var(--ink);
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -42,7 +48,7 @@ a {
 }
 
 a:hover {
-  color: var(--rose);
+  color: var(--mint);
 }
 
 .site-shell {
@@ -53,8 +59,8 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 10;
-  border-bottom: 1px solid rgba(217, 210, 197, 0.86);
-  background: rgba(247, 244, 238, 0.88);
+  border-bottom: 1px solid rgba(255, 179, 217, 0.22);
+  background: rgba(16, 17, 24, 0.88);
   backdrop-filter: blur(14px);
 }
 
@@ -89,7 +95,7 @@ a:hover {
 }
 
 .nav__links a:hover {
-  color: var(--accent-strong);
+  color: var(--mint);
 }
 
 .hero {
@@ -105,7 +111,7 @@ a:hover {
 
 .eyebrow {
   margin: 0 0 14px;
-  color: var(--accent);
+  color: var(--mint);
   font-size: 0.82rem;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -118,6 +124,11 @@ h3 {
   margin: 0;
   line-height: 1.08;
   letter-spacing: 0;
+}
+
+h1,
+h2 {
+  text-shadow: 0 0 28px rgba(255, 143, 199, 0.16);
 }
 
 h1 {
@@ -145,28 +156,31 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  border: 1px solid var(--accent-strong);
+  border: 1px solid var(--accent);
   border-radius: 8px;
   padding: 0 18px;
-  background: var(--accent-strong);
-  color: #fffdf8;
+  background: var(--accent);
+  color: #21101a;
   font-weight: 800;
   text-decoration: none;
+  box-shadow: 0 0 0 1px rgba(255, 179, 217, 0.22), 0 10px 24px rgba(255, 143, 199, 0.18);
 }
 
 .button:hover {
-  background: var(--ink);
-  color: #fffdf8;
+  background: var(--mint);
+  border-color: var(--mint);
+  color: #081816;
 }
 
 .button--secondary {
   background: transparent;
   color: var(--accent-strong);
+  box-shadow: none;
 }
 
 .button--secondary:hover {
-  background: rgba(15, 73, 63, 0.08);
-  color: var(--accent-strong);
+  background: rgba(159, 244, 223, 0.1);
+  color: var(--mint);
 }
 
 .portrait {
@@ -174,7 +188,7 @@ h1 {
   aspect-ratio: 4 / 5;
   min-height: 0;
   max-height: 460px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(255, 179, 217, 0.34);
   border-radius: 8px;
   overflow: hidden;
   background: var(--paper);
@@ -188,7 +202,7 @@ h1 {
 }
 
 .section {
-  border-top: 1px solid var(--line);
+  border-top: 1px solid rgba(255, 179, 217, 0.18);
 }
 
 .section__inner {
@@ -226,7 +240,7 @@ h1 {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 22px;
-  background: var(--paper);
+  background: linear-gradient(180deg, rgba(255, 179, 217, 0.055), rgba(159, 244, 223, 0.025)), var(--paper);
 }
 
 .fact strong {
@@ -235,7 +249,7 @@ h1 {
   font-size: 0.86rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--accent);
+  color: var(--mint);
 }
 
 .fact p {
@@ -254,11 +268,12 @@ h1 {
   border-radius: 8px;
   overflow: hidden;
   background: var(--paper);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
 }
 
 .project__media {
   aspect-ratio: 16 / 9;
-  background: #f8f7f3;
+  background: var(--paper-soft);
   border-bottom: 1px solid var(--line);
 }
 
@@ -292,12 +307,13 @@ h1 {
 }
 
 .tags li {
-  border: 1px solid rgba(23, 107, 93, 0.24);
+  border: 1px solid rgba(159, 244, 223, 0.34);
   border-radius: 999px;
   padding: 4px 10px;
-  color: var(--accent-strong);
+  color: var(--mint);
   font-size: 0.82rem;
   font-weight: 700;
+  background: rgba(159, 244, 223, 0.06);
 }
 
 .project__links {
@@ -333,7 +349,7 @@ h1 {
 }
 
 .footer {
-  border-top: 1px solid var(--line);
+  border-top: 1px solid rgba(255, 179, 217, 0.18);
 }
 
 .footer__inner {
