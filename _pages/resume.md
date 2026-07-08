@@ -5,8 +5,8 @@ author_profile: true
 permalink: /resume/
 ---
 
-My most up-to-date resume, which can also be downloaded <a href="../assets/files/MadisonThantu_resume.pdf" download="MadisonThantu_resume.pdf">here</a>:
-<embed src="https://madisonthantu.github.io/about_mgt/assets/files/MadisonThantu_resume.pdf" type="application/pdf"/>
+My most up-to-date resume, which can also be downloaded <a href="../assets/files/madison-thantu-spring-2026.pdf" download="madison-thantu-spring-2026.pdf">here</a>:
+<embed src="https://madisonthantu.github.io/about_mgt/assets/files/madison-thantu-spring-2026.pdf" type="application/pdf"/>
 
 <!-- https://madisonthantu.github.io/about_mgt/resume/ -->
 <!-- <object data="https://madisonthantu.github.io/about_mgt/assets/files/MadisonThantu_resume.pd" type="application/pdf" width="1500px" height="400px">
@@ -21,7 +21,6 @@ My most up-to-date resume, which can also be downloaded <a href="../assets/files
   </head>
   <body>
     <h1>PDF Example</h1>
-    <p>Open a PDF file <a href="assets/files/MadisonThantu_resume.pdf">example</a>.</p>
+    <p>Open a PDF file <a href="assets/files/madison-thantu-spring-2026.pdf">example</a>.</p>
   </body>
 </html> -->
-
